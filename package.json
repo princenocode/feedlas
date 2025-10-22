@@ -1,0 +1,15 @@
+{
+  "name": "feedlas",
+  "version": "1.0.0",
+  "description": "Feedlas - Collect and Analyze user feedback",
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "build": "node build.js",
+    "preview": "npm run dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["feedback", "user-feedback", "analytics"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {}
+}
